@@ -203,10 +203,10 @@
   </section>
 
 
-
+ 
   <!--CENNNIK-->
   <section class="page-section" id="prices">
-    <div class="layer">
+    <div id="pricesimage"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -431,6 +431,54 @@
     <!-- /container -->
     <!-- /container -->
 
+
+
+
+
+   
+
+
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content bg-light" >
+    
+          <!-- Modal Header -->
+          <div class="modal-header text-center text-black">
+            <h4 class="modal-title">STRONA W PRZEBUDAWIE!!!</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+    
+          <!-- Modal body -->
+          <div class="modal-body text-center text-black">
+            Zapraszamy wkrótce :)
+          </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer ">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Wyjdź</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
@@ -458,5 +506,13 @@
     <script
       src = "js/scroll.js"></script>
     </script>
+
+
+
+    <script type="text/javascript">
+      $(window).on('load',function(){
+          $('#myModal').modal('show');
+      });
+  </script>
   </body>
 </html>
