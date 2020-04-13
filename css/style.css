@@ -295,9 +295,21 @@ header.masthead .intro-text .intro-heading {
     /* height: 100vh;*/
     /*width: auto;*/
 }
-
 #prices {
-    background: linear-gradient(rgba(254, 197, 3, 0.3) 100%, rgba(0, 0, 0, 0) 0%), url(../img/pexels-photo-228094.jpeg);
+    position: relative;
+    background: none;
+}
+#prices:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: linear-gradient(rgba(254, 197, 3, 0.3) 100%, rgba(0, 0, 0, 0) 0%),
+        url(../img/pexels-photo-228094.jpeg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
