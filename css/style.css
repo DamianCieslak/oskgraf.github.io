@@ -254,7 +254,7 @@ header.masthead .intro-text .intro-heading {
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-/*---------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
 /*MEDIA*/
 @media (min-width: 768px) {
     header.masthead .intro-text {
@@ -309,7 +309,7 @@ header.masthead .intro-text .intro-heading {
 
 #opinions {
     background-color: #fff;
-    /* height: 100vh;
+    /* height: 100vh; 
     width: auto;*/
 }
 
