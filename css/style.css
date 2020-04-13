@@ -308,7 +308,7 @@ header.masthead .intro-text .intro-heading {
     right: 0;
     bottom: 0;
     z-index: -1;
-    background-image: linear-gradient(rgba(254, 197, 3, 0.3) 100%, rgba(0, 0, 0, 0) 0%),
+    background-image: linear-gradient(rgba(254, 197, 3, 0.4) 100%, rgba(0, 0, 0, 0) 0%),
         url(../img/pexels-photo-228094.jpeg);
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -326,7 +326,19 @@ header.masthead .intro-text .intro-heading {
 }
 
 #contact {
-    /* background-color: rgb(254, 197, 3, 0.5);*/
+    position: relative;
+    background: none;
+}
+
+#contact::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
     background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0) 0%), url(../img/pexels-photo-228094.jpeg);
     background-repeat: no-repeat;
     background-attachment: scroll;
